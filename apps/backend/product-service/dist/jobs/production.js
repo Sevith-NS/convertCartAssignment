@@ -5,12 +5,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const node_cron_1 = __importDefault(require("node-cron"));
 const product_service_1 = require("../services/product-service");
-// Runs every 30 minutes
-node_cron_1.default.schedule("*/30 * * * *", async () => {
+// Runs every minute
+node_cron_1.default.schedule("*/1 * * * *", async () => {
     console.log("Running scheduled product ingestion...");
     try {
         await (0, product_service_1.fetchAndStoreProducts)();
-        console.log("Products ingested successfully.");
+        console.log("Products ingested successfully through CRON JOB.");
     }
     catch (err) {
         console.error("Ingestion failed:", err);
