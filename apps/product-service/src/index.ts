@@ -3,11 +3,12 @@ import dotenv from "dotenv";
 dotenv.config();
 import mongoose from "mongoose";
 import productRoutes from "./routes/product-routes";
+import cors from "cors"
 
 
 const app = express();
 app.use(express.json());
-
+app.use(cors()); 
 app.use("/products", productRoutes);
 
 const PORT = process.env.PORT || 5000;
