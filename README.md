@@ -110,7 +110,7 @@ This will be available at: http://localhost:5001/segments/evaluate
 
 ### Frontend Setup
 
-This frontend is built with React (or Next.js) and connects to both backend services via environment variables.
+This frontend is built with  Next.js and connects to both the backend services via environment variables.
 
 1. Navigate to the frontend directory:
 
