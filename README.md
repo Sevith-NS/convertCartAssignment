@@ -38,8 +38,9 @@ README.md
 - [Segment Service API Docker Image](https://hub.docker.com/layers/seviths/api-segment-service/1.0/images/sha256:8332491921009828a54786bc3f272b6e1690451196aa091d662167546eff32b2?uuid=9ED7F120-60FA-4111-B2DC-AE417A468F91)
 - [Product Service API Docker Image](https://hub.docker.com/layers/seviths/api-product-service/1.0/images/sha256:08f5c0bdd9ed6f383c350c4810a2f3d7005de28859e59e1439fa51da9988f0b0?uuid=9ED7F120-60FA-4111-B2DC-AE417A468F91)
 
-
 **Note**: The live frontend might have some delay while fetching the results due to free tier use of Render.
+
+---
 
 ##  Setup Instructions
 
@@ -62,6 +63,7 @@ MONGODB_URI=<your_mongo_db_uri>
 ```
 The segment service only requires the database connection and port configuration.
 
+---
 
 ### Docker Setup 
 
@@ -87,6 +89,7 @@ Now available at http://localhost:5000/products
 Repeat for segment-service, using a different port (e.g., 5001:5001).
 This will be available at: http://localhost:5001/segments/evaluate
 
+---
 
 ### Local setup using npm
 
@@ -107,6 +110,8 @@ Now available at http://localhost:5000/products
 
 Repeat for segment-service, using a different port (e.g., 5001:5001).
 This will be available at: http://localhost:5001/segments/evaluate
+
+---
 
 ### Frontend Setup
 
@@ -145,6 +150,8 @@ npm run dev
 ```
 The frontend will be available at: http://localhost:3000
 
+---
+
 ## Ingestion Logic
 
 Products are ingested from WooCommerce using:
@@ -171,6 +178,7 @@ The following fields are ingested from WooCommerce and stored in MongoDB:
 | `on_sale`         | `on_sale`                | Boolean                        |
 | `created_at`      | `date_created`           | Date Created                |
 
+---
 
 ## Sample Input for Segmentation
 
@@ -178,6 +186,7 @@ price > 90
 stock_status = instock
 on_sale = true
 
+---
 
 ## AI Usage Notes
 
