@@ -200,4 +200,4 @@ This project used AI (ChatGPT) to assist with:
 - All AI-generated code was manually reviewed, tested, and modified as necessary.
 - Understanding and implementing cron jobs and implementing upsert logic for the same. I only knew cron jobs theoretically this gave me the hands on experience.
 - Writing clean error messages and debug logics wherever necessary.
-- Understanding new tags in html like <pre></pre>
+
