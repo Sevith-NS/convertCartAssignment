@@ -69,20 +69,18 @@ Each service is containerized with a `Dockerfile`. You do **not** need to instal
 
 #### Run Locally via Docker
 
-1. Navigate into the backend folder:
+   1. Navigate into the backend folder:
    ```
    cd apps/backend/product-service
    ```
-Build the Docker image:
-
-```
-docker build -t product-service .
-```
-Run the container:
-
-```
-docker run -p 5000:5000 --env-file .env product-service
-```
+   2.Build the Docker image:
+   ```
+   docker build -t product-service .
+   ```
+   3.Run the container:
+   ```
+   docker run -p 5000:5000 --env-file .env product-service
+   ```
 
 Now available at http://localhost:5000/products
 
