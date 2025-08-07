@@ -198,6 +198,6 @@ This project used AI (ChatGPT) to assist with:
 - Writing boilerplate code
 - Markdown formatting and README structuring
 - All AI-generated code was manually reviewed, tested, and modified as necessary.
-- Understanding and implementing cron jobs. I only knew cron jobs theoretically.
+- Understanding and implementing cron jobs and implementing upsert logic for the same. I only knew cron jobs theoretically this gave me the hands on experience.
 - Writing clean error messages and debug logics wherever necessary.
 - Understanding new tags in html like <pre></pre>
