@@ -183,11 +183,12 @@ on_sale = true
 
 This project used AI (ChatGPT) to assist with:
 
-Understanding microservices architecture patterns
-Generating clean folder structures and Docker configs
-Debugging .env parsing and MongoDB connection issues
-Writing boilerplate code
-Markdown formatting and README structuring
-All AI-generated code was manually reviewed, tested, and adapted as necessary.
-Understanding and implementing cron jobs. I only knew cron jobs theoretically.
-Writing clean error messages and debug logics wherever necessary.
+- Understanding microservices architecture patterns
+- Generating clean folder structures and Docker configs
+- Debugging .env parsing and MongoDB connection issues
+- Writing boilerplate code
+- Markdown formatting and README structuring
+- All AI-generated code was manually reviewed, tested, and modified as necessary.
+- Understanding and implementing cron jobs. I only knew cron jobs theoretically.
+- Writing clean error messages and debug logics wherever necessary.
+- Understanding new tags in html like <pre></pre>
