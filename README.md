@@ -31,12 +31,12 @@ README.md
 
 ## Live URLs
 
-Frontend UI:	[WooCommerce](https://convertcartassignment.onrender.com/)
-Product API:	[Product Service API](https://api-segment-service-1-0.onrender.com)
-Segment API:	[Segment service API](https://api-product-service-1-0.onrender.com)
+- Frontend UI:	[WooCommerce](https://convertcartassignment.onrender.com/)
+-  Product API:	[Product Service API](https://api-segment-service-1-0.onrender.com)
+- Segment API:	[Segment service API](https://api-product-service-1-0.onrender.com)
 
-[Segment Service API Docker Image](https://hub.docker.com/layers/seviths/api-segment-service/1.0/images/sha256:8332491921009828a54786bc3f272b6e1690451196aa091d662167546eff32b2?uuid=9ED7F120-60FA-4111-B2DC-AE417A468F91)
-[Product Service API Docker Image](https://hub.docker.com/layers/seviths/api-product-service/1.0/images/sha256:08f5c0bdd9ed6f383c350c4810a2f3d7005de28859e59e1439fa51da9988f0b0?uuid=9ED7F120-60FA-4111-B2DC-AE417A468F91)
+- [Segment Service API Docker Image](https://hub.docker.com/layers/seviths/api-segment-service/1.0/images/sha256:8332491921009828a54786bc3f272b6e1690451196aa091d662167546eff32b2?uuid=9ED7F120-60FA-4111-B2DC-AE417A468F91)
+- [Product Service API Docker Image](https://hub.docker.com/layers/seviths/api-product-service/1.0/images/sha256:08f5c0bdd9ed6f383c350c4810a2f3d7005de28859e59e1439fa51da9988f0b0?uuid=9ED7F120-60FA-4111-B2DC-AE417A468F91)
 
 
 **Note**: The live frontend might have some delay while fetching the results due to free tier use of Render.
